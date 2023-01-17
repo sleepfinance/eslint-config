@@ -1,6 +1,7 @@
 {
   "name": "@sleepfinance/eslint-config",
   "version": "0.1.1",
+  "private": false,
   "description": "sleep.finance Config",
   "keywords": [
     "sleep.finance",
@@ -45,5 +46,17 @@
     "eslint-plugin-simple-import-sort": "*",
     "eslint-plugin-testing-library": "*",
     "eslint-plugin-unused-imports": "*"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sleepfinance@github.com/sleepfinance/eslint-config.git"
+  },
+  "author": "sleep finance",
+  "bugs": {
+    "url": "https://github.com/sleepfinance/eslint-config/issues"
+  },
+  "homepage": "https://github.com/sleepfinance/eslint-config#readme"
 }
